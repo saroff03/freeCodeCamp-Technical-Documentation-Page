@@ -1,5 +1,5 @@
 * {
-  color: white;
+  color: whitesmoke;
   box-sizing: border-box;
 }
 
@@ -20,10 +20,23 @@ img {
   background-attachment: fixed;
   background-size: cover;
   min-width: 78vw;
-  min-height: 100vh;
 }
 
 a {
   text-decoration: none;
   color: white;
+  padding: 5px;
+}
+
+.shaman {
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  background-color: whitesmoke;
+  color: black;
+  font-size: large;
+}
+
+.shaman > a {
+  color: black;
+  font-weight: bold;
 }
