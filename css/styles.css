@@ -1,0 +1,29 @@
+* {
+  color: white;
+  box-sizing: border-box;
+}
+
+img {
+  width: 20px;
+  height: 20px;
+}
+
+.sidebar {
+  background-color: #1e2a3a;
+  border-right: 3px solid white;
+  min-width: 20vw;
+}
+
+.mainContent {
+  background: url("../images/bg2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-width: 78vw;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
